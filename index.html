@@ -1,132 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="style.css">
-	<title>Chessboard</title>
-</head>
-<body>
-	<h1>CHESSBOARD</h1>
-	<div class="wrapper">
-		<div class="chessboard">
-			<div class="col mt20">
-				<div class="number">1</div>
-				<div class="number">2</div>
-				<div class="number">3</div>
-				<div class="number">4</div>
-				<div class="number">5</div>
-				<div class="number">6</div>
-				<div class="number">7</div>
-				<div class="number">8</div>
-			</div>
-			<div class="col">
-				<div class="letter">A</div>
-				<div class="size black"> <img src="icons/rook_white.png" alt="pawn"></div>
-				<div class="size white"> <img src="icons/pawn_white.png" alt="pawn"></div>
-				<div class="size black"></div>
-				<div class="size white"></div>
-				<div class="size black"></div>
-				<div class="size white"></div>
-				<div class="size black"> <img src="icons/pawn_black.png" alt="pawn"></div>
-				<div class="size white"> <img src="icons/rook_black.png" alt="pawn"></div>
-				<div class="letter rotate">A</div>
-			</div>
-			<div class="col">
-				<div class="letter">B</div>
-				<div class="size white"> <img src="icons/knight_white.png" alt="pawn"></div>
-				<div class="size black"> <img src="icons/pawn_white.png" alt="pawn"></div>
-				<div class="size white"></div>
-				<div class="size black"></div>
-				<div class="size white"></div>
-				<div class="size black"></div>
-				<div class="size white"> <img src="icons/pawn_black.png" alt="pawn"></div>
-				<div class="size black"> <img src="icons/knight_black.png" alt="pawn"></div>
-				<div class="letter rotate">B</div>
-			</div>
-			<div class="col">
-				<div class="letter">C</div>
-				<div class="size black"> <img src="icons/bishop_white.png" alt="pawn"></div>
-				<div class="size white"> <img src="icons/pawn_white.png" alt="pawn"></div>
-				<div class="size black"></div>
-				<div class="size white"></div>
-				<div class="size black"></div>
-				<div class="size white"></div>
-				<div class="size black"> <img src="icons/pawn_black.png" alt="pawn"></div>
-				<div class="size white"> <img src="icons/bishop_black.png" alt="pawn"></div>
-				<div class="letter rotate">C</div>
-			</div>
-			<div class="col">
-				<div class="letter">D</div>
-				<div class="size white"> <img src="icons/queen_white.png" alt="pawn"></div>
-				<div class="size black"> <img src="icons/pawn_white.png" alt="pawn"></div>
-				<div class="size white"></div>
-				<div class="size black"></div>
-				<div class="size white"></div>
-				<div class="size black"></div>
-				<div class="size white"> <img src="icons/pawn_black.png" alt="pawn"></div>
-				<div class="size black"> <img src="icons/queen_black.png" alt="pawn"></div>
-				<div class="letter rotate">D</div>
-			</div>
-			<div class="col">
-				<div class="letter">E</div>
-				<div class="size black"> <img src="icons/king_white.png" alt="pawn"></div>
-				<div class="size white"> <img src="icons/pawn_white.png" alt="pawn"></div>
-				<div class="size black"></div>
-				<div class="size white"></div>
-				<div class="size black"></div>
-				<div class="size white"></div>
-				<div class="size black"> <img src="icons/pawn_black.png" alt="pawn"></div>
-				<div class="size white"> <img src="icons/king_black.png" alt="pawn"></div>
-				<div class="letter rotate">E</div>
-			</div>
-			<div class="col">
-				<div class="letter">F</div>
-				<div class="size white"> <img src="icons/bishop_white.png" alt="pawn"></div>
-				<div class="size black"> <img src="icons/pawn_white.png" alt="pawn"></div>
-				<div class="size white"></div>
-				<div class="size black"></div>
-				<div class="size white"></div>
-				<div class="size black"></div>
-				<div class="size white"> <img src="icons/pawn_black.png" alt="pawn"></div>
-				<div class="size black"> <img src="icons/bishop_black.png" alt="pawn"></div>
-				<div class="letter rotate">F</div>
-			</div>
-			<div class="col">
-				<div class="letter">G</div>
-				<div class="size black"> <img src="icons/knight_white.png" alt="pawn"></div>
-				<div class="size white"> <img src="icons/pawn_white.png" alt="pawn"></div>
-				<div class="size black"></div>
-				<div class="size white"></div>
-				<div class="size black"></div>
-				<div class="size white"></div>
-				<div class="size black"> <img src="icons/pawn_black.png" alt="pawn"></div>
-				<div class="size white"> <img src="icons/knight_black.png" alt="pawn"></div>
-				<div class="letter rotate">G</div>
-			</div>
-			<div class="col">
-				<div class="letter">H</div>
-				<div class="size white"> <img src="icons/rook_white.png" alt="pawn"></div>
-				<div class="size black"> <img src="icons/pawn_white.png" alt="pawn"></div>
-				<div class="size white"></div>
-				<div class="size black"></div>
-				<div class="size white"></div>
-				<div class="size black"></div>
-				<div class="size white"> <img src="icons/pawn_black.png" alt="pawn"></div>
-				<div class="size black"> <img src="icons/rook_black.png" alt="pawn"></div>
-				<div class="letter rotate">H</div>
-			</div>
-			<div class="col mt20 rotate">
-				<div class="number">8</div>
-				<div class="number">7</div>
-				<div class="number">6</div>
-				<div class="number">5</div>
-				<div class="number">4</div>
-				<div class="number">3</div>
-				<div class="number">2</div>
-				<div class="number">1</div>
-			</div>
-
-		</div>
-	</div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab3</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Шахматная доска</h1>
+    </header>
+    <section class="container">
+      <div class="wrapper">
+        <div class="board">
+          <div class="letters">
+            <div class="letter">a</div>
+            <div class="letter">б</div>
+            <div class="letter">в</div>
+            <div class="letter">г</div>
+            <div class="letter">д</div>
+            <div class="letter">е</div>
+            <div class="letter">ж</div>
+            <div class="letter">з</div>
+          </div>
+          <div class="row">
+            <div class="number">1</div>
+            <div class="white"><img src="images/rook_white.png" alt=""/></div>
+            <div class="black"><img src="images/knight_white.png" alt=""/></div>
+            <div class="white"><img src="images/bishop_white.png" alt=""/></div>
+            <div class="black"><img src="images/king_white.png" alt=""/></div>
+            <div class="white"><img src="images/queen_white.png" alt=""/></div>
+            <div class="black"><img src="images/bishop_white.png" alt=""/></div>
+            <div class="white"><img src="images/knight_white.png" alt=""/></div>
+            <div class="black"><img src="images/rook_white.png" alt=""/></div>
+            <div class="number">1</div>
+          </div>
+          <div class="row">
+            <div class="number">2</div>
+            <div class="black"><img src="images/pawn_white.png" alt="" /></div>
+            <div class="white"><img src="images/pawn_white.png" alt="" /></div>
+            <div class="black"><img src="images/pawn_white.png" alt="" /></div>
+            <div class="white"><img src="images/pawn_white.png" alt="" /></div>
+            <div class="black"><img src="images/pawn_white.png" alt="" /></div>
+            <div class="white"><img src="images/pawn_white.png" alt="" /></div>
+            <div class="black"><img src="images/pawn_white.png" alt="" /></div>
+            <div class="white"><img src="images/pawn_white.png" alt="" /></div>
+            <div class="number">2</div>
+          </div>
+          <div class="row">
+            <div class="number">3</div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="number">3</div>
+          </div>
+          <div class="row">
+            <div class="number">4</div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="number">4</div>
+          </div>
+          <div class="row">
+            <div class="number">5</div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="number">5</div>
+          </div>
+          <div class="row">
+            <div class="number">6</div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="number">6</div>
+          </div>
+          <div class="row">
+            <div class="number">7</div>
+            <div class="white"><img src="images/pawn_black.png" alt="" /></div>
+            <div class="black"><img src="images/pawn_black.png" alt="" /></div>
+            <div class="white"><img src="images/pawn_black.png" alt="" /></div>
+            <div class="black"><img src="images/pawn_black.png" alt="" /></div>
+            <div class="white"><img src="images/pawn_black.png" alt="" /></div>
+            <div class="black"><img src="images/pawn_black.png" alt="" /></div>
+            <div class="white"><img src="images/pawn_black.png" alt="" /></div>
+            <div class="black"><img src="images/pawn_black.png" alt="" /></div>
+            <div class="number">7</div>
+          </div>
+          <div class="row">
+            <div class="number">8</div>
+            <div class="black"><img src="images/rook_black.png" /></div>
+            <div class="white"><img src="images/knight_black.png" /></div>
+            <div class="black"><img src="images/bishop_black.png" /></div>
+            <div class="white"><img src="images/king_black.png" /></div>
+            <div class="black"><img src="images/queen_black.png" /></div>
+            <div class="white"><img src="images/bishop_black.png" /></div>
+            <div class="black"><img src="images/knight_black.png" /></div>
+            <div class="white"><img src="images/rook_black.png" /></div>
+            <div class="number">8</div>
+          </div>
+          <div class="letters">
+            <div class="letter">a</div>
+            <div class="letter">б</div>
+            <div class="letter">в</div>
+            <div class="letter">г</div>
+            <div class="letter">д</div>
+            <div class="letter">е</div>
+            <div class="letter">ж</div>
+            <div class="letter">з</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
